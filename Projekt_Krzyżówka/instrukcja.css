@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    background-color: #333;
+}
+
+.instrukcja {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #9a9a9a;
+}
+
+h2 {
+    color: #333;
+}

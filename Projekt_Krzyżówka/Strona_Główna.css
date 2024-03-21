@@ -1,0 +1,39 @@
+body{
+    background-color: #333;
+
+}
+
+.tresc {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.tresc a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    margin:  10px;
+}
+
+.poziomytrudnosci a:hover {
+    background-color: #555;
+}
+
+.poziomytrudnosci{
+    display: flex;
+    flex-direction: column;
+}
+.instrukcja{
+    margin-bottom: 70px;
+    margin-right: 1400px;
+    position: absolute;
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poziom Trudny</title>
+    <link rel="stylesheet" href="Podstrona_Trudna.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+<div class="strona">
+    <nav class="menu">
+        <ul>
+            <li><a href="Strona_Główna.html"> Strona Główna </a></li>  
+            <li><a href="Podstrona_Łatwa.html"> Poziom Łatwy </a> </li>  
+            <li><a href="Podstrona_Trudna.html"> Poziom Trudny </a> </li>  
+            <li><a href="instrukcja.html"> Instrukcja </a> </li>  
+        </ul>
+    </nav>
+    <div class="wyniki">
+        <p id="wynik1"></p>
+        <p id="wynik2"></p>
+        <p id="wynik3"></p>
+        <p id="wynik4"></p>
+        <p id="wynik5"></p>
+        <p id="wynik6"></p>
+    </div>
+    <div class="zegarek">
+        <h3>Czas rozgrywki</h3>
+        <div class="zegar"></div>
+    </div>
+    
+    <div class="calosc">
+        <h1>Gra krzyżówka - Poziom Trudny</h1>
+
+<div class="odpowiedzi">
+    <div class="odpowiedz1">
+        1 <input type="text" maxlength="1" name="pierwszaodpowiedz_pole1">
+        <input type="text" maxlength="1" name="pierwszaodpowiedz_pole2" >
+        <input type="text" maxlength="1" name="pierwszaodpowiedz_pole3" >
+        <input type="text" maxlength="1" name="pierwszaodpowiedz_pole4" >
+<div class="odpowiedzi1_2czesc">
+    <input type="text" maxlength="1" name="pierwszaodpowiedz_pole6" >
+    <input type="text" maxlength="1" name="pierwszaodpowiedz_pole7" >
+    <input type="text" maxlength="1" name="pierwszaodpowiedz_pole8" >
+    <input type="text" maxlength="1" name="pierwszaodpowiedz_pole9" >
+    <input type="text" maxlength="1" name="pierwszaodpowiedz_pole11" id="czesc3" >
+</div>
+    </div>
+    <div class="odpowiedz2">
+        <p>2</p> <input type="text" maxlength="1" name="drugaodpowiedz_pole1">
+        <input type="text" maxlength="1" name="drugaodpowiedz_pole2" >
+        <input type="text" maxlength="1" name="drugaodpowiedz_pole3">
+        <input type="text" maxlength="1" name="drugaodpowiedz_pole4">
+        <input type="text" maxlength="1" name="drugaodpowiedz_pole5">
+        <input type="text" maxlength="1" name="drugaodpowiedz_pole6">
+</div>
+    <div class="odpowiedz3">
+        <p>4</p> <input type="text" maxlength="1" name="czwartaodpowiedz_pole1">
+        <input type="text" maxlength="1" name="czwartaodpowiedz_pole2">
+        <input type="text" maxlength="1" name="czwartaodpowiedz_pole3">
+        <div class="odpowiedz3_czesc2">
+            <input type="text" maxlength="1" name="czwartaodpowiedz_pole5">
+            <input type="text" maxlength="1" name="czwartaodpowiedz_pole6" >
+            <input type="text" maxlength="1" name="czwartaodpowiedz_pole7">    
+        </div>
+    </div>
+    <div class="odpowiedz4">
+        5 <input type="text" maxlength="1" name="piataodpowiedz_pole1">
+        <input type="text" maxlength="1" name="piataodpowiedz_pole2">
+        <input type="text" maxlength="1" name="piataodpowiedz_pole3">
+        <input type="text" maxlength="1" name="piataodpowiedz_pole4">
+        <input type="text" maxlength="1" name="piataodpowiedz_pole5">
+        <input type="text" maxlength="1" name="piataodpowiedz_pole6">
+    </div>
+    <div class="odpowiedz5">
+        <p>6</p> <input type="text" maxlength="1" name="szostaodpowiedz_pole1">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole2">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole3" >
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole4">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole5">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole6">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole7">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole8">
+        <input type="text" maxlength="1" name="szostaodpowiedz_pole9">
+    </div>
+    <div class="odpowiedz6">
+        3 <input type="text" maxlength="1" name="trzeciaodpowiedz_pole1">
+        <input type="text" maxlength="1" name="trzeciaodpowiedz_pole2">
+        <input type="text" maxlength="1" name="trzeciaodpowiedz_pole3" >
+        <input type="text" maxlength="1" name="trzeciaodpowiedz_pole4">
+        <input type="text" maxlength="1" name="trzeciaodpowiedz_pole5">
+    </div>
+</div>
+        <div class="odpowiedz">
+            <h2>Twoje Hasło :</h2>
+            <p id="odp"></p>
+        </div>
+    <button class="sprawdz">Sprawdz</button>
+        <div class="lista">
+            <h2>Pytania do Gry:</h2>
+            <ol>
+                <li>Czego używasz do mycia zębów rano i wieczorem?</li>
+                <li>Środek transportu, którym podróżujesz z rodzina po jezdni.</li>
+                <li>W co uderza dzwonnik?</li>
+                <li>Metalowy przyrząd używany do zatrzymywania się statków na wodzie.</li>
+                <li>Zdrobnienie słowa 'kwiat.</li>
+                <li>Roślina z której produkuje sie popcorn.</li>
+            </ol>
+            <p>
+                Należy używać polskich znaków. W razie problemów należy przeczytać jeszcze raz instrukcje.
+            </p>
+        </div>
+        <div class="srodek">
+    
+        </div>
+       </div> 
+</div>
+<script src="Spacja_Trudna.js"></script>
+<script src="licznik_czasu.js"></script>
+<script src="Podstrona_Trudna.js"></script>
+</body>
+</html>

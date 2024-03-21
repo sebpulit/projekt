@@ -1,0 +1,132 @@
+body {
+    background-color: #333;
+    color: rgb(197, 197, 197);
+    font-family: Arial;
+}
+h1{
+height: 73px;
+}
+
+.odpowiedzi input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #000;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: #fff; 
+
+}
+.odpowiedz {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.odpowiedz{
+    height: 434px;
+}
+.odpowiedzi p{
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.odpowiedz2 {
+    position: absolute;
+    top: 220px;
+    left: 21px;
+    display: flex;
+    flex-direction: column; 
+}
+.odpowiedz3 {
+    position: absolute;
+    top: 78px;
+    left: 243px;
+    display: flex;
+    flex-direction: column; 
+}
+.odpowiedz4 {
+    position: absolute;
+    top: 279px;
+    left: 174px;
+
+}
+.odpowiedz5 {
+    position: absolute;
+    top: 137px;
+    left: 520px;
+    display: flex;
+    flex-direction: column; 
+}
+.odpowiedz6 {
+    position: absolute;
+    top: 574px;
+}
+button.sprawdz {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+
+}
+.odpowiedz2 p {
+    position: absolute;
+    top: -83px;
+    left: 23px;
+}
+.odpowiedzi1_2czesc{
+    position: absolute;
+    top: 162px;
+    left: 298px;
+}
+#czesc3{
+    position: absolute;
+    top: -1px;
+    left: 277px;
+}
+.odpowiedz3_czesc2{
+    position: absolute;
+    top: 260px;
+}
+.wyniki p{
+    font-size: 25px;
+
+}
+.wyniki {
+    position: absolute;
+    bottom: 250px;
+    right: 0px;
+    padding: 100px;
+}
+#odp{
+    font-size: 25px;
+}
+.zegarek {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #454545;
+    color: white;
+    border-radius: 5px;
+}
+.zegar {
+    font-size: 25px;
+}
+.srodek {
+    position: absolute;
+    top: 8%;
+    left: 42%;
+    padding: 20px;
+}
+.srodek p {
+    font-size: 25px;
+}
+.lista{
+    font-size: 16px;
+}
